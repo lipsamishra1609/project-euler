@@ -1,5 +1,5 @@
 import java.util.*;
-public class prog4 {
+public class q4 {
 
 	public static boolean Ispalindrome(long n)	
 	{     
