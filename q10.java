@@ -6,7 +6,7 @@ public class q10 {
 	   for(long n=3;n<2000000;n++)
 		{
 		   int check=0;
-	       for(long i=2;i<=Math.sqrt(n);i++)
+	       for(long i=2;i*i<=n;i++)
            {
 			  if(n%i==0)
 			  {
