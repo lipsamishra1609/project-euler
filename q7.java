@@ -1,5 +1,5 @@
 import java.util.*;
-public class prog7 {
+public class q7 {
 	
 	public static boolean isPrime(long n)
 	{
