@@ -13,7 +13,7 @@ public class q8 {
 			for(int j=0;j<13;j++)
 			{
 				char ch=s.charAt(i+j);
-				product=product*Integer.parseInt(String.valueOf(ch));
+				product=product*(Character.getNumericValue(ch));
 				if(product>max_product)
 				{
 					max_product=product;
