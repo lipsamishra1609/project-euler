@@ -1,4 +1,4 @@
-import java.util.*;
+//What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 public class q5 {
 
 	public static void main(String[] args) {
@@ -26,3 +26,5 @@ public class q5 {
         System.out.println("the smallest integer divisible : "+number);
      }
 }
+
+//output: 232792560
