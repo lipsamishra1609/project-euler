@@ -1,5 +1,6 @@
-import java.util.*;
-public class q9 {
+//There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+//Find the product abc.
+public class prog9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -25,3 +26,4 @@ public class q9 {
 	}
 
 }
+//output: 31875000
