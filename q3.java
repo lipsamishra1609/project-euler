@@ -1,4 +1,4 @@
-import java.util.*;
+//What is the largest prime factor of the number 600851475143 
 public class prog3 {
 
 	public static boolean IsPrime(long n)
@@ -41,6 +41,8 @@ public class prog3 {
 	                }
 	             }
 	         }
-	        System.out.println("maximum prime factor "+max);
+	        System.out.println("maximum prime factor : "+max);
 	     }
 }
+
+// output : 6857
