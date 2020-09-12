@@ -1,5 +1,6 @@
+//Find the largest palindrome made from the product of two 3-digit numbers.
 import java.util.*;
-public class q4 {
+public class prog4 {
 
 	public static boolean Ispalindrome(long n)	
 	{     
@@ -22,6 +23,7 @@ public class q4 {
 
 	}
 		    public static void main(String[] args) {
+		    	// TODO Auto-generated method stub
 			Scanner sc=new Scanner(System.in);
 			//System.out.println("enter the number");
 			//long n=sc.nextLong();
@@ -43,3 +45,5 @@ public class q4 {
 		}
 
 }
+
+//output : 580085
