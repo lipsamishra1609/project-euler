@@ -1,5 +1,5 @@
-import java.util.*;
-public class q7 {
+//What is the 10 001st prime number?
+public class prog7 {
 	
 	public static boolean isPrime(long n)
 	{
@@ -23,8 +23,8 @@ public class q7 {
 	}
 	
 	public static void main(String[] args) {
-	
-	 int count=0;	
+		// TODO Auto-generated method stub
+     int count=0;	
 	 long primeNumber=0;
      long i=2;
      
@@ -41,3 +41,5 @@ public class q7 {
 	}
 
 }
+
+//output: 104743
