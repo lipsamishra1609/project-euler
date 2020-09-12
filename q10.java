@@ -1,4 +1,5 @@
-public class q10 {
+//Find the sum of all the primes below two million.
+public class prog10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,3 +24,4 @@ public class q10 {
 	}
 
 }
+//output: 142913828922
