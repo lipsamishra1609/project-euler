@@ -1,5 +1,5 @@
-import java.util.*;
-public class q6 {
+//Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+public class prog6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,3 +15,4 @@ public class q6 {
 	}
 
 }
+//output: 25164150
