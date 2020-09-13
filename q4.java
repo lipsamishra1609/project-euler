@@ -1,6 +1,6 @@
 //Find the largest palindrome made from the product of two 3-digit numbers.
 import java.util.*;
-public class prog4 {
+public class q4 {
 
 	public static boolean Ispalindrome(long n)	
 	{     
