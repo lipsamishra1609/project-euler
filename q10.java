@@ -1,5 +1,5 @@
 //Find the sum of all the primes below two million.
-public class prog10 {
+public class q10 {
 	/*public static boolean isPrime(long n)
 	{
 		boolean flag=true;
