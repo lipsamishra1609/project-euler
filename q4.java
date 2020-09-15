@@ -1,6 +1,6 @@
 //Find the largest palindrome made from the product of two 3-digit numbers.
 import java.util.*;
-public class q4 {
+public class prog4 {
 
 	public static boolean Ispalindrome(long n)	
 	{     
@@ -29,9 +29,9 @@ public class q4 {
 			//long n=sc.nextLong();
 			long mul;
 			long lar=0;
-			for(int i=100;i<=999;i++)
+			for(int i=999;i>=100;i--)
 			{
-				for(int j=100;j<=999;j++)
+				for(int j=999;j>=100;j--)
 				{
 				mul=i*j;
 				if(Ispalindrome(mul))
