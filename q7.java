@@ -1,5 +1,5 @@
 //What is the 10 001st prime number?
-public class prog7 {
+public class q7 {
 /*	public static boolean isPrime(long n)
 	{
 		int flag=1;
