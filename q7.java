@@ -10,7 +10,7 @@ public class q7 {
 		{
 			return false;
 		}
-		for(int i=3;i<=Math.sqrt(n);i++)
+		for(int i=3;i<=Math.sqrt(n);i=i+2)
 		{
 			if(n%i==0)
 			{
