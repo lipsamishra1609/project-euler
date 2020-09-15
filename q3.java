@@ -1,5 +1,5 @@
 //What is the largest prime factor of the number 600851475143 
-public class prog3 {
+public class q3 {
    /*public static boolean IsPrime(long n)
 	{
 		int flag=1;
