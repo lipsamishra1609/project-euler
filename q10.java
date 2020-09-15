@@ -4,7 +4,7 @@ public class q10 {
 	public static boolean isPrime(long n)
 	{
 		boolean flag=true;
-		for(int i=3;i<=Math.sqrt(n);i++)
+		for(int i=3;i<=Math.sqrt(n);i=i+2)
 		{
 			if(n%i==0)
 			{
