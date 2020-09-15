@@ -1,9 +1,10 @@
 //Find the sum of all the primes below two million.
+import java.util.*;
 public class q10 {
-	/*public static boolean isPrime(long n)
+	public static boolean isPrime(long n)
 	{
 		boolean flag=true;
-		for(int i=2;i*i<=n;i++)
+		for(int i=3;i<=Math.sqrt(n);i++)
 		{
 			if(n%i==0)
 			{
@@ -19,27 +20,18 @@ public class q10 {
 		{
 			return false;
 		}
-	}*/
+	}
    public static void main(String[] args) {
 		// TODO Auto-generated method stub
        long sum=2;
 	   for(long n=3;n<2000000;n=n+2)
 		{
-		   int flag=0;
-			for(int j=2;j<=Math.sqrt(n);j++)
-			{
-				if(n%j==0)
-				{
-					flag=1;
-					break;
-				}
-			}
-			if(flag==0)
-			{
-				sum=sum+n;
-			}
+		   if(isPrime(n))
+		   {
+			   sum+=n;
+		   }
 		}
-
+	   
 		System.out.println(sum);
 	}
 }
